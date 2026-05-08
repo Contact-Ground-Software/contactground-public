@@ -32,8 +32,8 @@ From `Calendar`:
 5. Save.
 
 Important:
-- Resource is optional for `Availability` events.
-- Non-availability events require a resource.
+- Resource is optional for `Availability` and `Meeting` events.
+- Other user-created event types require a resource.
 
 ### 2.2 Manage existing availability
 You can edit or delete your own availability events at any time.
@@ -146,4 +146,3 @@ Check:
 1. You are on the correct member profile.
 2. Profile has instructor role (`cfi`, `cfii`, `dpe`).
 3. You are the profile owner or have owner/admin/leadership role.
-

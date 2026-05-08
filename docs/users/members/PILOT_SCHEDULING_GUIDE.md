@@ -14,8 +14,10 @@ This guide documents the member-facing scheduling and post-flight workflows that
 From `Calendar`:
 1. Choose a view (`Day`, `Week`, or `Resource`).
 2. Select an open time slot.
-3. Set event details (resource, event type, start/end time).
+3. Set event details (event type, start/end time, and resource when required).
 4. Save.
+
+Resource selection is optional for `Availability` and `Meeting` events. Other user-created event types require a resource.
 
 To change or cancel:
 1. Open the event.

@@ -13,9 +13,11 @@ This manual explains how members schedule resources on the calendar.
 1. Open `Calendar`.
 2. Choose day/week/resource view.
 3. Pick a time slot.
-4. Select resource and event type.
+4. Select event type and a resource when the event type requires one.
 5. Set start/end time and event details.
 6. Save the event.
+
+Resource selection is optional for `Availability` and `Meeting` events. Other user-created event types require a resource.
 
 ## 3. Understand Resource Statuses
 

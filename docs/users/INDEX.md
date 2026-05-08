@@ -57,6 +57,7 @@ Welcome to the Contact Ground user documentation. This guide helps you find the 
 - **[Administration](/docs/users/administration/ADMINISTRATION.md)** - Organization setup and member management
 - **[Owner Configuration](/docs/users/owners/OWNER_CONFIGURATION.md)** - Organization-level settings
 - **[Resource Management](/docs/users/administration/RESOURCE_MANAGEMENT.md)** - Deep-dive resource setup and governance
+- **[Documents](/docs/users/administration/DOCUMENTS.md)** - Club files, required reading, member upload requirements, and review workflow
 - **[Messaging Administration](/docs/users/administration/MESSAGING.md)** - Messaging policy and SOP guidance
 - **[Blog Entries Administration](/docs/users/administration/BLOG_ENTRIES.md)** - News publishing/moderation governance
 
@@ -117,6 +118,7 @@ Welcome to the Contact Ground user documentation. This guide helps you find the 
 - [QuickBooks Advanced Setup](/docs/users/accounting/QUICKBOOKS_ADVANCED_SETUP.md) - Advanced admin/accounting setup
 
 ### Communications
+- [Documents](/docs/users/administration/DOCUMENTS.md) - Club documents, required reading, and member upload review
 - [Member Notification Preferences](/docs/users/members/MEMBER_NOTIFICATION_PREFERENCES.md) - Email, SMS, and push notifications
 - [Pilot Scheduling Guide](/docs/users/members/PILOT_SCHEDULING_GUIDE.md) - Scheduling and post-flight workflow
 - [Organizational Messaging](/docs/features/ORGANIZATIONAL_MESSAGING.md) - Sending targeted organization announcements
@@ -152,6 +154,9 @@ Welcome to the Contact Ground user documentation. This guide helps you find the 
 
 #### ...set up notifications
 → [Member Notification Preferences](/docs/users/members/MEMBER_NOTIFICATION_PREFERENCES.md)
+
+#### ...manage documents or member uploads
+→ [Documents](/docs/users/administration/DOCUMENTS.md)
 
 #### ...set up my profile
 → [Member Profile](/docs/users/members/MEMBER_PROFILE.md)
@@ -193,6 +198,7 @@ Welcome to the Contact Ground user documentation. This guide helps you find the 
 For technical feature overviews and implementation details, see the [features](/docs/features/) directory:
 - [Blog Entries](/docs/features/BLOG_ENTRIES.md)
 - [Currency Reminders](/docs/features/CURRENCY_REMINDERS.md)
+- [Documents](/docs/features/DOCUMENTS.md)
 - [Endorsements](/docs/features/ENDORSEMENTS.md)
 - [Flight Operations](/docs/features/FLIGHT_OPERATIONS.md)
 - [Maintenance Blocks](/docs/features/MAINTENANCE_BLOCKS.md)

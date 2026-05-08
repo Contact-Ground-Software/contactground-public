@@ -23,6 +23,7 @@ Complete guides organized by role:
 - [Flight Operations](/docs/users/operations/FLIGHT_OPERATIONS.md) - Operations management
 - [Maintenance](/docs/users/operations/MAINTENANCE.md) - Squawk and maintenance tracking
 - [Administration](/docs/users/administration/ADMINISTRATION.md) - Organization management
+- [Documents](/docs/users/administration/DOCUMENTS.md) - Document library, required reading, and member upload review
 
 ### Feature Documentation
 **[Feature Documentation →](/docs/features/)**
@@ -30,6 +31,7 @@ Complete guides organized by role:
 Technical feature overviews and capabilities:
 - Blog Entries
 - Currency Reminders
+- Documents
 - Endorsements
 - Flight Operations
 - Maintenance Blocks

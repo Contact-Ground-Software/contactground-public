@@ -19,6 +19,7 @@ If you are looking for step-by-step instructions by role, start with the [User D
 
 ### Communication & Visibility
 - **[Blog Entries](/docs/features/BLOG_ENTRIES.md)** - Club news and informational posting features
+- **[Documents](/docs/features/DOCUMENTS.md)** - Club reference files, required reading, member uploads, and approval tracking
 - **[Notifications](/docs/features/NOTIFICATIONS.md)** - Email, SMS, push, and in-app notification behavior
 - **[Organizational Messaging](/docs/features/ORGANIZATIONAL_MESSAGING.md)** - Internal club messaging and communication workflows
 
@@ -58,6 +59,7 @@ If you are looking for step-by-step instructions by role, start with the [User D
 - **Maintenance grounding and alerts** → [Maintenance Blocks](/docs/features/MAINTENANCE_BLOCKS.md) and [Maintenance Reminders](/docs/features/MAINTENANCE_REMINDERS.md)
 - **Pilot readiness and endorsements** → [Currency Reminders](/docs/features/CURRENCY_REMINDERS.md), [Endorsements](/docs/features/ENDORSEMENTS.md), and [IFR Endorsement](/docs/features/IFR_ENDORSEMENT.md)
 - **Club announcements and alerts** → [Notifications](/docs/features/NOTIFICATIONS.md), [Organizational Messaging](/docs/features/ORGANIZATIONAL_MESSAGING.md), and [Blog Entries](/docs/features/BLOG_ENTRIES.md)
+- **Club files and member upload requirements** → [Documents](/docs/features/DOCUMENTS.md)
 - **Accounting sync and reporting** → [QuickBooks Integration](/docs/features/QUICKBOOKS_INTEGRATION.md) and [Reports](/docs/features/REPORTS.md)
 - **Weather support for planning** → [Weather Integration](/docs/features/WEATHER_INTEGRATION.md)
 
