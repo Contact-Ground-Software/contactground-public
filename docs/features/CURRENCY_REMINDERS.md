@@ -66,3 +66,7 @@ Action:
 Check:
 1. `Currency Reminders` category is enabled.
 2. At least one delivery method is enabled.
+
+---
+
+[Contact Ground Website](https://www.contactground.com)

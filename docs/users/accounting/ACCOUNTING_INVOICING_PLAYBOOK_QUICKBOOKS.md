@@ -193,3 +193,7 @@ Action:
 ### 6.3 Post-send checklist
 1. Record payments in QuickBooks Online.
 2. Confirm webhook-driven paid status updates in Contact Ground.
+
+---
+
+[Contact Ground Website](https://www.contactground.com)

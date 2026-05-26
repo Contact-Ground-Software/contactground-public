@@ -112,7 +112,7 @@ Technical feature overviews:
 - ✅ Added [Checklists](/docs/users/operations/CHECKLISTS.md) user manual
 - ✅ Added comprehensive [Pilot Scheduling Guide](/docs/users/members/PILOT_SCHEDULING_GUIDE.md)
 - ✅ Cleaned up technical content in maintenance and accounting docs
-- ✅ Created [Documentation Gap Analysis](/docs/DOCUMENTATION_GAPS.md)
+- ✅ Added documentation index and navigation
 - ✅ Added documentation index and navigation
 
 ---
@@ -122,8 +122,7 @@ Technical feature overviews:
 1. **Search the docs**: Use your browser's search (Ctrl+F / Cmd+F)
 2. **Check your role's section**: Start with docs relevant to your role
 3. **Review troubleshooting**: Most guides have troubleshooting sections
-4. **Check for gaps**: See [Documentation Gaps](/docs/DOCUMENTATION_GAPS.md) for known limitations
-5. **Contact support**: Reach out to your organization administrator or Contact Ground support
+4. **Contact support**: Reach out to your organization administrator or Contact Ground support
 
 ---
 
@@ -141,3 +140,7 @@ Contact your organization administrator or Contact Ground support with feedback.
 
 **Documentation Version**: February 2026  
 **System**: Contact Ground Flying Club Management Platform
+
+---
+
+[Contact Ground Website](https://www.contactground.com)

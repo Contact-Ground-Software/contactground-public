@@ -177,3 +177,7 @@ Action:
 ### 7.3 Post-send checklist
 1. Track incoming payments.
 2. Mark invoices paid in Contact Ground.
+
+---
+
+[Contact Ground Website](https://www.contactground.com)

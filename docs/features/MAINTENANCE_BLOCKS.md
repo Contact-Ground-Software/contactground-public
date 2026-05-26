@@ -28,3 +28,7 @@ If a maintenance block overlaps existing reservations, affected reservations can
 1. Create blocks as promptly as possible.
 2. Include clear notes in the event description.
 3. Re-open resource availability promptly after maintenance completion.
+
+---
+
+[Contact Ground Website](https://www.contactground.com)

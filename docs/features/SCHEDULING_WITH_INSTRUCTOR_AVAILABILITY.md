@@ -36,3 +36,7 @@ Members can request a time within those slots instead of booking directly agains
 1. Members: include clear training goals in request purpose.
 2. Instructors: respond quickly to keep scheduling moving.
 3. Use realistic block durations and avoid overbooking.
+
+---
+
+[Contact Ground Website](https://www.contactground.com)

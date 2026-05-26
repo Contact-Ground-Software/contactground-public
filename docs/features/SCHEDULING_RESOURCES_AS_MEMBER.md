@@ -42,3 +42,7 @@ Booking can be blocked by:
 1. Use the calendar views to check conflicts before submitting.
 2. Include enough buffer time after your flight - ensure that you consider time to postflight and refuel the aircraft before the next reservation begins.
 3. Update or cancel bookings promptly when plans change.
+
+---
+
+[Contact Ground Website](https://www.contactground.com)

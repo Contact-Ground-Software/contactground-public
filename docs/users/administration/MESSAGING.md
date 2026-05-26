@@ -13,7 +13,7 @@ Your organization must have at least one messaging mode enabled in `Organization
 
 ### 1.2 Where key pages are
 - Send a message: left sidebar `Messaging`
-- Review replies: `Messaging` → `Review Replies`
+- Message threads: `Messaging` → `Message threads`
 
 ## 2. Available Messaging Modes
 
@@ -71,11 +71,11 @@ After sending, review the delivery summary to confirm all intended recipients we
 
 ## 6. Reviewing Replies
 
-Members can reply to messages they receive — either by email or directly inside the app. Replies are visible to owners and admins.
+Members can reply to messages they receive — either by email or directly inside the app. Replies are visible to message participants. Owners and admins can review all organization message threads.
 
 To review replies:
 1. Open `Messaging`.
-2. Click `Review Replies`.
+2. Click `Message threads`.
 3. Browse sent message threads.
 4. Read replies received from members.
 
@@ -90,7 +90,11 @@ Any member who receives an organization message can reply without using email:
 3. Click the **Reply** button shown below the notification.
 4. Type your reply and click **Send reply**.
 
-The reply is recorded immediately. The message sender and all original recipients are notified on the next notification cycle (typically within a few minutes). In-app replies follow the same flow as email replies and appear in the `Review Replies` view.
+The reply is recorded immediately and appears in the thread. Open thread views refresh every few seconds, and participants are notified without waiting for the scheduled notification cycle. The person who sent the reply is not notified of their own reply.
+
+Email replies still work: replying to the message email adds the response to the same thread and notifies the other participants.
+
+SMS delivery is outbound-only for organization messaging. Members with verified SMS notifications can receive organization messages and replies by SMS, but SMS replies are not monitored. To reply, use the app, web thread, or email reply.
 
 ## 8. Best Practices
 
@@ -119,3 +123,7 @@ For guidance on configuring organization settings, see:
    `docs/users/administration/BLOG_ENTRIES.md`
 3. Member notification preferences:
    `docs/users/members/MEMBER_NOTIFICATION_PREFERENCES.md`
+
+---
+
+[Contact Ground Website](https://www.contactground.com)

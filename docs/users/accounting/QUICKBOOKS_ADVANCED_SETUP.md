@@ -172,3 +172,7 @@ Action:
    `docs/users/accounting/ACCOUNTING_INVOICING_PLAYBOOK.md`
 3. Organization settings:
    `docs/users/administration/ADMINISTRATION.md`
+
+---
+
+[Contact Ground Website](https://www.contactground.com)

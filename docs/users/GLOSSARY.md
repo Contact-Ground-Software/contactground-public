@@ -53,3 +53,7 @@ Use these preferred terms in docs:
 1. Prefer `Flight Operations` over `Flight Ops` in headings and first reference.
 2. Prefer `Squawk` for maintenance issue records.
 3. Prefer `Resource` unless the context is explicitly aircraft-only.
+
+---
+
+[Contact Ground Website](https://www.contactground.com)

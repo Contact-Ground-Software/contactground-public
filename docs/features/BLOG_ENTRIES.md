@@ -70,3 +70,7 @@ Notes:
 3. Update or replace outdated entries so members do not act on stale guidance.
 4. Ask members who want announcement alerts to keep `News Updates` enabled in their notification preferences.
 5. Avoid profanity, irrelevant content, and keep all post text within acceptable organizational guidelines.
+
+---
+
+[Contact Ground Website](https://www.contactground.com)

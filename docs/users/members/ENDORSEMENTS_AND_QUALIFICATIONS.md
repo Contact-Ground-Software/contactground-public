@@ -48,3 +48,7 @@ If an endorsement is removed:
    `docs/users/members/MEMBER_PROFILE.md`
 3. Scheduling guide:
    `docs/users/members/PILOT_SCHEDULING_GUIDE.md`
+
+---
+
+[Contact Ground Website](https://www.contactground.com)

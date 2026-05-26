@@ -59,3 +59,7 @@ Verify your organization context (you may be viewing a different organization) a
 
 3. Search dialog does not open with keyboard shortcut:
 Click anywhere on the page first to ensure the page has focus, then try `Cmd/Ctrl + K` again.
+
+---
+
+[Contact Ground Website](https://www.contactground.com)

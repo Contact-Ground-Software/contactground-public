@@ -94,3 +94,7 @@ When viewing a resource, the maintenance item list shows:
 2. Review predicted dates periodically — high-utilisation weeks or reduced flying will shift predictions.
 3. After completing maintenance, update the due value for that item's tracking mode to reset the cycle.
 4. Use maintenance blocks on the calendar to reserve downtime once the actual work is scheduled.
+
+---
+
+[Contact Ground Website](https://www.contactground.com)

@@ -56,3 +56,7 @@ For notification and messaging records, details can include message metadata suc
 2. Use entity links to jump directly into the affected record.
 3. Include timestamp, user, and entity ID when sharing findings with your team.
 4. Review high-impact changes regularly (resources, members, invoicing, organization settings).
+
+---
+
+[Contact Ground Website](https://www.contactground.com)

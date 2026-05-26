@@ -40,3 +40,7 @@ After connecting:
 1. Complete mappings before sending invoices for sync.
 2. Align line item mappings with your accounting categories.
 3. Have accounting review first synced invoices before full rollout.
+
+---
+
+[Contact Ground Website](https://www.contactground.com)

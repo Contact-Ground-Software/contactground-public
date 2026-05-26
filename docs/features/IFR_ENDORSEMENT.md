@@ -98,3 +98,7 @@ A **VFR Weather Alert** warning box is included in the pre-flight email, identif
 - **Admin → Endorsements** – create/manage the IFR endorsement type.
 - **Flight Operations → Pre-flight Dispatch** – includes flight rules and weather alert.
 - **Calendar → Create Event** – select flight rules when org has IFR type.
+
+---
+
+[Contact Ground Website](https://www.contactground.com)

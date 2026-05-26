@@ -38,3 +38,7 @@ When a resource is configured with required endorsements:
 1. Use standardized endorsement names.
 2. Update endorsements as part of checkout/training completion.
 3. Review assignments regularly.
+
+---
+
+[Contact Ground Website](https://www.contactground.com)

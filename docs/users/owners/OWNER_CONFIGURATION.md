@@ -135,3 +135,7 @@ That manual covers:
 `docs/users/operations/MAINTENANCE.md`
 6. Instructor guidance:
 `docs/users/instructors/INSTRUCTOR_AVAILABILITY_AND_RATES.md`
+
+---
+
+[Contact Ground Website](https://www.contactground.com)

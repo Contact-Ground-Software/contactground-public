@@ -110,3 +110,7 @@ Personal documents can be updated or archived by the uploading member.
 - Archive outdated documents or requirements instead of leaving obsolete records active.
 - Review pending submissions regularly so members are not blocked by avoidable approval delays.
 - Use clear titles such as `TSA Badge`, `Insurance Acknowledgement`, or `Signed Club Rules`.
+
+---
+
+[Contact Ground Website](https://www.contactground.com)

@@ -76,3 +76,7 @@ Check that category toggle in `Notification Preferences` is enabled.
 Verify your phone number in profile first.
 4. Not receiving a preflight dispatch brief:
 Confirm your organization is in `Automatic` flight operations mode and that your selected reminder time has not already passed long before the event was created.
+
+---
+
+[Contact Ground Website](https://www.contactground.com)

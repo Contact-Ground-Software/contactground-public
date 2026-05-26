@@ -78,3 +78,7 @@ When a privileged user books on behalf of a member, the following checks are **s
 - Resource maintenance status checks.
 
 Overlap detection remains active — you cannot double-book a resource regardless of the booking method.
+
+---
+
+[Contact Ground Website](https://www.contactground.com)

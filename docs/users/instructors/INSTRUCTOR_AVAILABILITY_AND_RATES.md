@@ -146,3 +146,7 @@ Check:
 1. You are on the correct member profile.
 2. Profile has instructor role (`cfi`, `cfii`, `dpe`).
 3. You are the profile owner or have owner/admin/leadership role.
+
+---
+
+[Contact Ground Website](https://www.contactground.com)

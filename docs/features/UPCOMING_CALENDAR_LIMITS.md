@@ -31,3 +31,7 @@ When enabled:
 1. Keep only realistic upcoming bookings.
 2. Release slots early when plans change.
 3. Avoid placeholder bookings that block others.
+
+---
+
+[Contact Ground Website](https://www.contactground.com)

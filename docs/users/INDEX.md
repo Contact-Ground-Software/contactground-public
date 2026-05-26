@@ -214,13 +214,6 @@ For technical feature overviews and implementation details, see the [features](/
 
 ---
 
-## 🎯 Documentation Gaps
-
-For information about features that need additional documentation, see:
-- [Documentation Gap Analysis](/docs/DOCUMENTATION_GAPS.md)
-
----
-
 ## 💡 Tips for Using Documentation
 
 1. **Use your browser's search** (Ctrl+F / Cmd+F) within documents to find specific topics
@@ -236,12 +229,15 @@ For information about features that need additional documentation, see:
 
 If you can't find what you need in the documentation:
 1. Check the relevant manual's troubleshooting section
-2. Review the [Documentation Gap Analysis](/docs/DOCUMENTATION_GAPS.md) to see if it's a known gap
-3. Contact your organization administrator
-4. Reach out to Contact Ground support
+2. Contact your organization administrator
+3. Reach out to Contact Ground support
 
 ---
 
 ## 📅 Last Updated
 
 This index was last updated on February 20, 2026.
+
+---
+
+[Contact Ground Website](https://www.contactground.com)

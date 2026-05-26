@@ -195,3 +195,7 @@ If a report is missing, contact an admin or owner.
 4. Run the Endorsements report monthly to confirm member qualifications are current.
 5. Run the Uninvoiced Billing Lines report before generating invoices to confirm all charges are captured.
 6. Use the Currency Reminders report alongside the Endorsements report for a complete compliance picture.
+
+---
+
+[Contact Ground Website](https://www.contactground.com)

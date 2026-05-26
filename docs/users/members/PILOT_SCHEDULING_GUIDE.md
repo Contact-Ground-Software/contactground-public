@@ -130,3 +130,7 @@ Action:
    `docs/users/operations/FLIGHT_OPERATIONS.md`
 5. Scheduling on behalf of a member (instructors / admins):
    `docs/users/instructors/SCHEDULING_ON_BEHALF.md`
+
+---
+
+[Contact Ground Website](https://www.contactground.com)

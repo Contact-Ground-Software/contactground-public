@@ -18,7 +18,9 @@ This manual explains how Contact Ground notifications are generated, delivered, 
 ### 1.3 Replying to an organization message
 1. Organization message notifications (✉️) include a **Reply** button.
 2. Click **Reply** to open the compose page where you can type and send a reply.
-3. Your reply is recorded immediately. The original sender and original recipients are notified within the next notification cycle.
+3. Your reply is recorded immediately. The original sender and original recipients are notified through the organization messaging dispatch queue; you are not notified of your own reply.
+
+SMS organization-message replies are not monitored. Use the app, web thread, or email reply when you need your response added to the thread.
 4. This lets members who opt out of email still participate in message threads.
 
 ## 2. How Notifications are Delivered
@@ -130,3 +132,7 @@ SMS notifications can only be configured through the web site.
 ### 5.4 Push notifications are not arriving
 1. Confirm `Push Notifications` is enabled in profile.
 2. Confirm the mobile app has registered a push token (sign in again if needed).
+
+---
+
+[Contact Ground Website](https://www.contactground.com)
