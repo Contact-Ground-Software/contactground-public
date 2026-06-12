@@ -17,7 +17,7 @@ This manual explains how members schedule resources on the calendar.
 5. Set start/end time and event details.
 6. Save the event.
 
-Resource selection is optional for `Availability` and `Meeting` events. Other user-created event types require a resource.
+Resource selection is optional for `Availability`, `Meeting`, and `Event` entries. Meetings are shown to the event owner, creator, and included members. Events are club-wide and appear on every member's calendar. Other user-created event types require a resource.
 
 ## 3. Understand Resource Statuses
 

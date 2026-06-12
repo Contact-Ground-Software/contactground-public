@@ -150,6 +150,32 @@ Depending on your role and your organization's enabled features, you may have ac
 - Confirm all flight and resource usage has been captured before generating invoices.
 - Use before running invoice generation to review what will be billed.
 
+### 3.12 Resource Expenses Report
+
+**What it shows:** Fixed, variable, and predicted resource expenses by date range, resource, category, and cost type. This report is available when Expense Management is enabled for the organization.
+
+**How to use it:**
+- Review actual expenses over time for one resource or all resources.
+- Compare fixed and variable expenses by month or year.
+- Use Pareto and category views to identify the largest cost drivers.
+- Review predictive maintenance automatically when the date range extends into the future.
+- Enter `Available Funds` to offset expenses already covered by reserves or current cash set aside for the selected planning period.
+
+**Key data points:**
+- Expense totals by date and category
+- Fixed vs. variable expense split
+- Actual vs. predicted maintenance costs
+- Available funds applied
+- Net expenses and suggested hourly rate by resource
+
+The suggested hourly rate is calculated as:
+
+```text
+(actual expenses + included predicted maintenance - available funds) / usage hours
+```
+
+For a single selected resource, available funds reduce that resource's expenses. For all resources, available funds are allocated proportionally by each resource's share of assigned expenses.
+
 ## 4. How to Interpret Report Data
 
 ### 4.1 Using filters and search
@@ -183,7 +209,7 @@ Use your browser's print or export options if you need to share report output. R
 
 Report availability depends on:
 1. Your assigned role(s)
-2. Organization settings (for example, invoicing and currency reminders)
+2. Organization settings (for example, invoicing, currency reminders, and Expense Management)
 
 If a report is missing, contact an admin or owner.
 
@@ -195,6 +221,7 @@ If a report is missing, contact an admin or owner.
 4. Run the Endorsements report monthly to confirm member qualifications are current.
 5. Run the Uninvoiced Billing Lines report before generating invoices to confirm all charges are captured.
 6. Use the Currency Reminders report alongside the Endorsements report for a complete compliance picture.
+7. Use the Resource Expenses report before rate changes to compare actual costs, predicted maintenance, available funds, and usage hours.
 
 ---
 

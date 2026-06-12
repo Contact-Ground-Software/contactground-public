@@ -27,7 +27,12 @@ If a maintenance block overlaps existing reservations, affected reservations can
 
 1. Create blocks as promptly as possible.
 2. Include clear notes in the event description.
-3. Re-open resource availability promptly after maintenance completion.
+3. If Expense Management is enabled, record predicted or actual maintenance costs associated with the downtime so resource expense reports and hourly-rate planning stay current.
+4. Re-open resource availability promptly after maintenance completion.
+
+## 6. Related Expense Planning
+
+For predicted maintenance costs, fixed and variable expenses, available funds, and suggested hourly rates, see [Resource Expense Tracking](./RESOURCE_EXPENSE_TRACKING.md).
 
 ---
 

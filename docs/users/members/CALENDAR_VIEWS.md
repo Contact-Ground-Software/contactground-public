@@ -104,10 +104,14 @@ Click any open time slot on the calendar to open the event creation dialog. See:
 ## 8. Event Types on the Calendar
 
 Events are color-coded and labeled by type:
-- **Flight** – Standard pilot flight booking
+- **Reservation / Trip** – Standard pilot flight bookings
 - **Training** – Instructional flight with an instructor
+- **Meeting** – Calendar-only meeting shown to the owner, creator, and included members
+- **Event** – Club-wide calendar item shown to all members
 - **Maintenance** – Maintenance event (operations staff only)
 - **Availability** – Instructor availability block (when availability is enabled)
+
+Meetings and Events do not require a resource. Meetings appear on the calendars of members included on the entry. Events are club-wide and appear on every member's calendar.
 
 ## 9. Reading Event Cards
 
@@ -153,7 +157,9 @@ You can sync your Contact Ground reservations to an external calendar applicatio
 
 ### 10.3 What is included in the feed
 - Your upcoming reservations
-- Event titles, times, and resource names
+- Meetings you created, own, or are included on
+- Club-wide events
+- Event titles, times, and resource names when a resource is selected
 
 The iCal URL is private. Do not share it publicly.
 
@@ -172,11 +178,13 @@ Possible causes:
 1. Resource filter is set, hiding events for other resources.
 2. You are looking at the wrong date.
 3. Show Availability is off and you are looking for an availability block.
+4. A Meeting does not include you as the owner, creator, or included member.
 
 Action:
 1. Clear the resource filter.
 2. Confirm you are on the correct date.
 3. Toggle `Show Availability` if looking for instructor availability.
+4. Ask the event creator to include you on the Meeting.
 
 ### 12.2 Cannot create an event
 Possible causes:

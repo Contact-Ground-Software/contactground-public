@@ -7,10 +7,12 @@ It covers:
 - Resource status behavior in scheduling
 - Maintenance due/reminder configuration
 - Predicted due dates for hour-based maintenance items
+- Predicted maintenance cost planning
 - Maintenance events on the calendar
 - How maintenance status is calculated in reports and booking checks
 
 > **See also:** [Maintenance Reminders and Calendar](../../features/MAINTENANCE_REMINDERS.md) for a detailed reference on predicted due dates, reminder notifications, and calendar display.
+> **Expense planning:** [Resource Expense Tracking](../../features/RESOURCE_EXPENSE_TRACKING.md) explains how to record actual costs, predicted maintenance costs, and available funds for hourly-rate planning.
 
 ## 1. Before You Start
 
@@ -110,13 +112,26 @@ Maintenance items appear on the calendar as **read-only** events that are visibl
 
 To change a due date or interval, edit the maintenance item directly on the `Resource` page. Calendar events for maintenance cannot be edited from the calendar view.
 
+## 5b. Predicted Maintenance Costs
+
+When Expense Management is enabled, operations, accounting, and admin roles can enter predicted costs for upcoming maintenance items. Use this for planning items such as:
+
+1. Annual inspections
+2. 100-hour inspections
+3. Oil changes
+4. Engine overhaul reserves
+5. Avionics or system upgrades
+
+Predicted maintenance costs appear in `Reports` -> `Resource Expenses` automatically when the selected date range extends into the future.
+
 ## 6. Daily Maintenance Runbook
 
 1. Review `Reports` -> `Squawks` filtered to `Open`.
 2. Confirm dispatch impact and set resource status (`Available`/`Unavailable`/`Maintenance`) as needed.
 3. Review `Reports` -> `Maintenance` for `Due` and `Upcoming` items.
-4. Close squawks only after corrective action is complete.
-5. Update maintenance item due thresholds when work completion resets the cycle.
+4. Review `Reports` -> `Resource Expenses` for upcoming predicted maintenance costs when planning downtime or hourly rates.
+5. Close squawks only after corrective action is complete.
+6. Update maintenance item due thresholds when work completion resets the cycle.
 
 ## 7. End-of-Day Maintenance Checklist
 
@@ -131,7 +146,8 @@ To change a due date or interval, edit the maintenance item directly on the `Res
 1. Review unresolved squawks by age and severity.
 2. Identify repeat-failure patterns and root causes.
 3. Validate maintenance item due values still reflect real next due thresholds.
-4. Share operational risk summary with leadership.
+4. Update predicted maintenance costs if quotes, parts, or labor estimates changed.
+5. Share operational risk summary with leadership.
 
 ## 9. Troubleshooting
 

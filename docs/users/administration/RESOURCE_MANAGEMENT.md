@@ -20,6 +20,7 @@ Members can view resource details but cannot make changes.
 - Edit an existing resource: `Resource` → select a resource → edit form
 - Hourly rate scheduling: resource detail page → `Hourly Rate` section
 - Maintenance items: resource detail page → `Maintenance Items` section
+- Expense tracking and rate planning: `Reports` → `Resource Expenses`
 - Checklists: left sidebar `Checklist`
 
 ## 2. Adding a New Resource
@@ -120,8 +121,19 @@ The current rate stays in effect until the scheduled date. Upcoming rate changes
 
 1. Set rates before month-end billing runs.
 2. Schedule future changes in advance to avoid billing surprises.
-3. Review the schedule list to confirm the right rate is active.
-4. Contact accounting when rates change so they can verify upcoming invoices.
+3. Use `Reports` → `Resource Expenses` to compare actual expenses, predicted maintenance, available funds, and usage hours before changing rates.
+4. Review the schedule list to confirm the right rate is active.
+5. Contact accounting when rates change so they can verify upcoming invoices.
+
+### 5.4 Suggested hourly rates from expenses
+
+When Expense Management is enabled, the Resource Expenses report can suggest a planning rate for each resource:
+
+```
+Suggested hourly rate = (actual expenses + included predicted maintenance - available funds) / usage hours
+```
+
+The `Available Funds` input is for money already available to offset the selected planning period. For a single resource, the funds reduce that resource's expenses. For all resources, funds are allocated proportionally by each resource's expense share.
 
 ## 6. Maintenance Items
 
@@ -250,6 +262,8 @@ Action:
    `docs/users/administration/ADMINISTRATION.md`
 5. Invoicing:
    `docs/users/accounting/ACCOUNTING_INVOICING_PLAYBOOK.md`
+6. Resource expense tracking:
+   `docs/features/RESOURCE_EXPENSE_TRACKING.md`
 
 ---
 
