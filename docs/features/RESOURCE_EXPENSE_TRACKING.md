@@ -92,11 +92,7 @@ Filters include date range, resource/all resources, category, and cost type.
 The bottom of the report includes a calculation summary that shows:
 
 1. Usage hours by resource.
-2. Tach-derived hours when available.
-3. Submitted flight hours used as a fallback when tach hours cannot be derived.
-4. Each total, recurring, per-hour, and prediction row, the formula used, and the amount included in the report.
-
-For expense reporting, Contact Ground prefers tach-derived time because tach time usually tracks aircraft operating cost better than Hobbs time. If there are not enough tach readings to derive a report-period delta, the report falls back to submitted flight hours.
+2. Each total, recurring, per-hour, and prediction row, the formula used, and the amount included in the report.
 
 ## 8. Available Funds in Hourly Rate Planning
 
