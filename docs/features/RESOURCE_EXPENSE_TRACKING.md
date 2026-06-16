@@ -80,6 +80,8 @@ Reports include predictive maintenance automatically when the selected date rang
 
 Maintenance reminders predict or identify when work is due, but they do not provide a dollar amount by themselves. To include future maintenance dollars in expense reports or suggested hourly rates, add a predicted maintenance cost entry for the maintenance item.
 
+For hour-based maintenance items, such as an engine overhaul due at a specific aircraft hour reading, the predicted cost entry can be saved without an expected date. Contact Ground will estimate the expected date from the maintenance item's due hours, the resource's current hours, and recent average usage. If the maintenance item is date-based, the item due date is used. If neither a due date nor a calculable hour-based prediction is available, enter an expected date manually.
+
 ## 7. Reports
 
 `Reports` -> `Resource Expenses` includes:
