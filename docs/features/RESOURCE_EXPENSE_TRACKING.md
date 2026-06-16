@@ -55,6 +55,8 @@ Use `Recurring` for real-world fixed costs such as hangar rent, loan payments, i
 
 Use `Per flight hour` for planning reserves or rate-based operating costs such as `$6/hr` for future avionics updates, `$10/hr` for maintenance reserve, or other costs that should scale with aircraft use. Per-flight-hour expenses require a resource because the report multiplies the rate by that resource's usage hours in the selected report period.
 
+When the selected report range extends into the future, per-flight-hour expenses use recorded usage for elapsed dates and projected usage for future dates. Projected usage is based on recent flight history, using the same average weekly usage model used by maintenance predictions.
+
 Mobile users with access can also open `More` -> `Resource Expenses` to enter expenses and view compact summaries.
 
 ## 5. Credit Request Expenses
@@ -75,6 +77,8 @@ The member credit and QuickBooks credit memo workflow remain separate from the i
 Predicted maintenance costs are tied to maintenance reminders/items. These are planning entries for future maintenance such as annual inspections, oil changes, engine overhaul reserves, or system upgrades.
 
 Reports include predictive maintenance automatically when the selected date range extends into the future. Predictive maintenance is only counted for future dates.
+
+Maintenance reminders predict or identify when work is due, but they do not provide a dollar amount by themselves. To include future maintenance dollars in expense reports or suggested hourly rates, add a predicted maintenance cost entry for the maintenance item.
 
 ## 7. Reports
 
