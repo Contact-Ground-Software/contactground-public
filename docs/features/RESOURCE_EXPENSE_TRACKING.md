@@ -53,9 +53,13 @@ Typical fields:
 
 Use `Recurring` for real-world fixed costs such as hangar rent, loan payments, insurance, subscriptions, or annual inspections. The report prorates recurring entries across the overlap between the entry's effective dates and the selected report date range. For example, `$225/month` over a full year contributes `$2,700`.
 
-Use `Per flight hour` for planning reserves or rate-based operating costs such as `$6/hr` for future avionics updates, `$10/hr` for maintenance reserve, or other costs that should scale with aircraft use. Per-flight-hour expenses require a resource because the report multiplies the rate by that resource's usage hours in the selected report period.
+Use `Per flight hour` for planning reserves such as `$6/hr` for future avionics updates, `$10/hr` for maintenance reserve, or other costs that should scale with aircraft use but are not directly inferable from actual receipts. Per-flight-hour expenses require a resource because the report multiplies the rate by that resource's usage hours in the selected report period.
 
-When the selected report range extends into the future, per-flight-hour expenses use recorded usage for elapsed dates and projected usage for future dates. Projected usage is based on recent flight history, using the same average weekly usage model used by maintenance predictions.
+Do not enter fuel burn or oil consumption as manual per-flight-hour planning expenses. Enter actual fuel/oil receipts as `Total amount` expenses or approve member credit requests into the `Fuel and oil` category. When a report extends into the future, Contact Ground estimates future fuel/oil operating cost from recent actual fuel/oil dollars divided by recent submitted flight hours, then applies that cost per hour to projected future usage.
+
+When the selected report range extends into the future, per-flight-hour expenses use recorded usage for elapsed dates and projected usage for future dates. If the selected date range already has actual usage, Contact Ground derives the projection from the elapsed portion of that same selected range. For example, a `Jan 1` through `Dec 31` report viewed in mid-June uses actual usage from `Jan 1` through mid-June to estimate usage for the rest of the year. This keeps annual planning aligned with the selected planning period instead of over-weighting a short recent burst of flying.
+
+If the selected range is entirely in the future, or the elapsed part of the selected range has no actual usage, Contact Ground falls back to recent flight history. Fuel/oil projections use the same projected usage model, but the hourly cost is calculated from recent actual `Fuel and oil` expense history instead of user-entered fuel burn, fuel price, or oil consumption assumptions.
 
 Mobile users with access can also open `More` -> `Resource Expenses` to enter expenses and view compact summaries.
 
@@ -95,10 +99,19 @@ For hour-based maintenance items, such as an engine overhaul due at a specific a
 
 Filters include date range, resource/all resources, category, and cost type.
 
+The selected date range controls both which expenses are counted and how future usage is estimated:
+
+1. Historical portions of the range use actual submitted flight hours.
+2. Future portions of the range use projected hours.
+3. If the range spans past and future dates, projected hours are based on the average usage from the elapsed portion of that selected range.
+4. If the range is future-only, or has no actual usage yet, projected hours fall back to recent usage history.
+5. Recurring expenses are prorated only for the part of the recurring entry that overlaps the selected range.
+6. Predicted maintenance costs are included only when their expected date falls within the future portion of the selected range.
+
 The bottom of the report includes a calculation summary that shows:
 
 1. Usage hours by resource.
-2. Each total, recurring, per-hour, and prediction row, the formula used, and the amount included in the report.
+2. Each total, recurring, per-hour, usage-projection, and prediction row, the formula used, and the amount included in the report.
 
 ## 8. Available Funds in Hourly Rate Planning
 
