@@ -1,5 +1,28 @@
 # Getting Started
 
+## Starting a New Organization on the Web
+
+After signing in without an organization, choose one of these paths:
+
+- **Start 7-day trial** creates a new organization and opens the getting-started checklist.
+- **Subscribe now** creates the organization, opens web subscription setup, and then continues to the checklist.
+- If your club already uses ContactGround, ask a club administrator to invite your account. Do not create a second organization.
+
+Creating an organization starts the seven-day trial automatically. The trial currently supports one resource and five members.
+
+The organization form starts with the club name, ICAO home base, flight-operations mode, and invitation setting. Expand the advanced sections to configure scheduling, optional features, Hobbs/Tach tracking, invoicing, and messaging.
+
+## Getting-Started Checklist
+
+Organization owners and administrators can open **Getting started** from the trial banner or dashboard. The checklist covers:
+
+1. Add the first aircraft or resource.
+2. Add resource details and maintenance tracking.
+3. Invite members.
+4. Review organization settings.
+
+Resource, maintenance, member, and pending-invitation progress is detected automatically. Maintenance and organization review can also be acknowledged manually for organizations that do not use the standard workflow.
+
 This guide helps new members get from first login to first successful use of Contact Ground.
 
 ## 1. First Login Checklist

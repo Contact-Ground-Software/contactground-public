@@ -20,7 +20,8 @@ Members can view resource details but cannot make changes.
 - Edit an existing resource: `Resource` → select a resource → edit form
 - Hourly rate scheduling: resource detail page → `Hourly Rate` section
 - Maintenance items: resource detail page → `Maintenance Items` section
-- Expense tracking and rate planning: `Reports` → `Resource Expenses`
+- Expense tracking: `Reports` -> `Resource Expenses`
+- Rate planning: resource detail page -> `Forecast Cost Per Hour`
 - Checklists: left sidebar `Checklist`
 
 ## 2. Adding a New Resource
@@ -121,19 +122,21 @@ The current rate stays in effect until the scheduled date. Upcoming rate changes
 
 1. Set rates before month-end billing runs.
 2. Schedule future changes in advance to avoid billing surprises.
-3. Use `Reports` → `Resource Expenses` to compare actual expenses, predicted maintenance, available funds, and usage hours before changing rates.
+3. Use the resource `Forecast Cost Per Hour` page before changing hourly rates or monthly dues.
 4. Review the schedule list to confirm the right rate is active.
 5. Contact accounting when rates change so they can verify upcoming invoices.
 
-### 5.4 Suggested hourly rates from expenses
+### 5.4 Cost forecasts from expenses
 
-When Expense Management is enabled, the Resource Expenses report can suggest a planning rate for each resource:
+When Expense Management is enabled, each resource has a cost forecast page. The forecast can include selected entered expenses, estimated maintenance items, and temporary planning rows.
 
-```
-Suggested hourly rate = (actual expenses + included predicted maintenance - available funds) / usage hours
-```
+The forecast separates fixed costs from variable/reserve costs:
 
-The `Available Funds` input is for money already available to offset the selected planning period. For a single resource, the funds reduce that resource's expenses. For all resources, funds are allocated proportionally by each resource's expense share.
+1. Fixed costs are shown as recommended monthly dues.
+2. Variable and reserve costs are shown as hourly recovery.
+3. The combined equivalent cost per hour is shown for comparison.
+
+The Resource Expenses report remains an entered-expense audit report and does not include maintenance estimates or rate recommendations.
 
 ## 6. Maintenance Items
 
@@ -144,12 +147,16 @@ For full maintenance management workflow, see:
 
 ### 6.1 Adding a maintenance item
 
-From a resource's detail page, scroll to `Maintenance Items` → `Add Item`:
+From a resource's detail page, choose `Manage Maintenance & Costs`:
 1. `Description`: What the maintenance task is (for example, `100-Hour Inspection`, `Annual`).
 2. `Hours Interval`: How many tach hours between services (for example, `100`).
 3. `Due at Hours`: The next due hours value (for example, `1250` if the resource is currently at 1150 hours and a 100-hour is coming due).
 4. `Date Interval (days)`: Calendar-based interval in days (for example, `365` for annual).
 5. `Due Date`: The next due date.
+6. `Estimated Expense Amount`: Optional planning amount for cost forecasts.
+7. `Expense Category`: Optional category for the estimated cost.
+8. `Cost Type`: Fixed or variable recovery.
+9. `Include in Forecast`: Whether this item is selected by default on the resource forecast page.
 
 Each item must use one tracking mode:
 1. Hours-based: fill `Hours Interval` and `Due at Hours`.

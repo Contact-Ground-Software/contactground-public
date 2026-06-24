@@ -16,7 +16,7 @@ If you are looking for step-by-step instructions by role, start with the [User D
 ### Accounting & Reporting
 - **[QuickBooks Integration](/docs/features/QUICKBOOKS_INTEGRATION.md)** - QuickBooks Online connection, mapping, and invoicing support
 - **[Reports](/docs/features/REPORTS.md)** - Reporting capabilities for operations, billing, and activity review
-- **[Resource Expense Tracking](/docs/features/RESOURCE_EXPENSE_TRACKING.md)** - Fixed, variable, and predicted resource expenses with hourly-rate planning
+- **[Resource Expense Tracking](/docs/features/RESOURCE_EXPENSE_TRACKING.md)** - Entered resource expenses, maintenance cost estimates, and resource-specific cost forecasting
 
 ### Communication & Visibility
 - **[Blog Entries](/docs/features/BLOG_ENTRIES.md)** - Club news and informational posting features
@@ -30,7 +30,7 @@ If you are looking for step-by-step instructions by role, start with the [User D
 ### Maintenance & Reliability
 - **[Maintenance Blocks](/docs/features/MAINTENANCE_BLOCKS.md)** - How maintenance events block aircraft from the schedule
 - **[Maintenance Reminders](/docs/features/MAINTENANCE_REMINDERS.md)** - Reminder workflows for upcoming required maintenance items
-- **[Resource Expense Tracking](/docs/features/RESOURCE_EXPENSE_TRACKING.md)** - Predicted maintenance costs and resource expense reporting
+- **[Resource Expense Tracking](/docs/features/RESOURCE_EXPENSE_TRACKING.md)** - Maintenance cost estimates, entered expenses, and resource cost forecasting
 
 ### Pilot Readiness & Compliance
 - **[Currency Reminders](/docs/features/CURRENCY_REMINDERS.md)** - Reminder workflows for expiring pilot currency items

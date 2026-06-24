@@ -8,7 +8,7 @@ Aircraft maintenance intervals are typically determined either by flight hours o
 
 Upcoming maintenance is automatically shown on the calendar as **read-only, informational events**.  These events are visible to all users but cannot be edited from the calendar; they do not block members from booking the resource.
 
-When Expense Management is enabled, maintenance reminders can also be paired with predicted maintenance costs. Those costs appear in Resource Expense reports automatically when the report date range extends into the future.
+When Expense Management is enabled, maintenance reminders can also store estimated maintenance costs. Those estimates are used by the resource cost forecast page and do not appear as actual expenses in the Resource Expenses report.
 
 ## 2. Reminder Days Field
 
@@ -96,11 +96,11 @@ When viewing a resource, the maintenance item list shows:
 2. Review predicted dates periodically — high-utilisation weeks or reduced flying will shift predictions.
 3. After completing maintenance, update the due value for that item's tracking mode to reset the cycle.
 4. Use maintenance blocks on the calendar to reserve downtime once the actual work is scheduled.
-5. Add or update predicted maintenance costs when major cost assumptions change, then review `Reports` -> `Resource Expenses` for hourly-rate planning.
+5. Add or update estimated maintenance costs when major cost assumptions change, then use the resource `Forecast Cost Per Hour` page for rate planning.
 
 ## 9. Related Expense Planning
 
-For fixed costs, variable costs, predicted maintenance costs, available funds, and suggested hourly rates, see [Resource Expense Tracking](./RESOURCE_EXPENSE_TRACKING.md).
+For fixed costs, variable costs, maintenance cost estimates, entered expense reporting, and resource forecasts, see [Resource Expense Tracking](./RESOURCE_EXPENSE_TRACKING.md).
 
 ---
 

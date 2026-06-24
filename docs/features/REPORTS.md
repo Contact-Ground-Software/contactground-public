@@ -152,29 +152,20 @@ Depending on your role and your organization's enabled features, you may have ac
 
 ### 3.12 Resource Expenses Report
 
-**What it shows:** Fixed, variable, and predicted resource expenses by date range, resource, category, and cost type. This report is available when Expense Management is enabled for the organization.
+**What it shows:** Entered fixed and variable resource expenses by date range and resource. This report is available when Expense Management is enabled for the organization.
 
 **How to use it:**
-- Review actual expenses over time for one resource or all resources.
-- Compare fixed and variable expenses by month or year.
+- Review entered expenses over time for a resource.
+- Compare fixed and variable expenses by period.
 - Use Pareto and category views to identify the largest cost drivers.
-- Review predictive maintenance automatically when the date range extends into the future.
-- Enter `Available Funds` to offset expenses already covered by reserves or current cash set aside for the selected planning period.
+- Review materialized recurring and per-flight-hour saved expense rows in the selected range.
 
 **Key data points:**
 - Expense totals by date and category
 - Fixed vs. variable expense split
-- Actual vs. predicted maintenance costs
-- Available funds applied
-- Net expenses and suggested hourly rate by resource
+- Expense entry calculations
 
-The suggested hourly rate is calculated as:
-
-```text
-(actual expenses + included predicted maintenance - available funds) / usage hours
-```
-
-For a single selected resource, available funds reduce that resource's expenses. For all resources, available funds are allocated proportionally by each resource's share of assigned expenses.
+Cost-per-hour planning has moved to each resource's `Forecast Cost Per Hour` page. Maintenance estimates and temporary forecast rows are planning inputs there, not actual expenses in this report.
 
 ## 4. How to Interpret Report Data
 
@@ -221,7 +212,7 @@ If a report is missing, contact an admin or owner.
 4. Run the Endorsements report monthly to confirm member qualifications are current.
 5. Run the Uninvoiced Billing Lines report before generating invoices to confirm all charges are captured.
 6. Use the Currency Reminders report alongside the Endorsements report for a complete compliance picture.
-7. Use the Resource Expenses report before rate changes to compare actual costs, predicted maintenance, available funds, and usage hours.
+7. Use the Resource Expenses report to audit entered costs, then use the resource Forecast Cost Per Hour page before changing rates or dues.
 
 ---
 

@@ -1,6 +1,6 @@
 # Resource Expense Tracking
 
-Resource Expense Tracking lets organizations track actual and predicted aircraft/resource expenses, then use those costs to support hourly-rate planning.
+Resource Expense Tracking lets organizations record entered aircraft/resource expenses, connect approved credit requests to expense records, and use resource-specific forecast pages for cost-per-hour planning.
 
 ## 1. Enable the Feature
 
@@ -32,34 +32,27 @@ Contact Ground creates default aviation categories the first time the feature is
 - Upgrades
 - Other
 
-Each category has a default cost type of `Fixed` or `Variable`.
+Each category has a default cost type of `Fixed` or `Variable`. Manage organization categories from the Expenses page using `Manage Categories`.
 
-## 4. Manual Expense Entry
+## 4. Expense Entry
 
-Use `Reports` -> `Resource Expenses` to enter standalone expenses without a credit memo.
+Use `Expenses` to enter standalone expenses without a credit memo.
 
 Typical fields:
 
-1. Resource, or `Unassigned`
+1. Resource
 2. Category
-3. Fixed or variable cost type
-4. Amount basis: `Total amount`, `Recurring`, or `Per flight hour`
-5. Amount or hourly rate
-6. Date
-7. Frequency for recurring entries (`Weekly`, `Monthly`, or `Annual`)
-8. Effective start/end dates for recurring and per-flight-hour entries
-9. Vendor/reference when useful
-10. Description
+3. Amount basis: `Total amount`, `Recurring`, or `Per flight hour`
+4. Amount or hourly rate
+5. Date
+6. Frequency for recurring entries (`Weekly`, `Monthly`, or `Annual`)
+7. Effective start/end dates for recurring and per-flight-hour entries
+8. Vendor/reference when useful
+9. Optional description
 
-Use `Recurring` for real-world fixed costs such as hangar rent, loan payments, insurance, subscriptions, or annual inspections. The report prorates recurring entries across the overlap between the entry's effective dates and the selected report date range. For example, `$225/month` over a full year contributes `$2,700`.
+Use `Recurring` for real-world fixed costs such as hangar rent, loan payments, insurance, subscriptions, or annual inspections. The report prorates recurring entries across the overlap between the entry's effective dates and the selected report date range.
 
-Use `Per flight hour` for planning reserves such as `$6/hr` for future avionics updates, `$10/hr` for maintenance reserve, or other costs that should scale with aircraft use but are not directly inferable from actual receipts. Per-flight-hour expenses require a resource because the report multiplies the rate by that resource's usage hours in the selected report period.
-
-Do not enter fuel burn or oil consumption as manual per-flight-hour planning expenses. Enter actual fuel/oil receipts as `Total amount` expenses or approve member credit requests into the `Fuel and oil` category. When a report extends into the future, Contact Ground estimates future fuel/oil operating cost from recent actual fuel/oil dollars divided by recent submitted flight hours, then applies that cost per hour to projected future usage.
-
-When the selected report range extends into the future, per-flight-hour expenses use recorded usage for elapsed dates and projected usage for future dates. If the selected date range already has actual usage, Contact Ground derives the projection from the elapsed portion of that same selected range. For example, a `Jan 1` through `Dec 31` report viewed in mid-June uses actual usage from `Jan 1` through mid-June to estimate usage for the rest of the year. This keeps annual planning aligned with the selected planning period instead of over-weighting a short recent burst of flying.
-
-If the selected range is entirely in the future, or the elapsed part of the selected range has no actual usage, Contact Ground falls back to recent flight history. Fuel/oil projections use the same projected usage model, but the hourly cost is calculated from recent actual `Fuel and oil` expense history instead of user-entered fuel burn, fuel price, or oil consumption assumptions.
+Use `Per flight hour` for saved expenses or reserves that should be materialized from submitted flight hours. Fuel and oil planning should generally come from actual receipts or selected forecast rows rather than hard-coded burn assumptions in the expense report.
 
 Mobile users with access can also open `More` -> `Resource Expenses` to enter expenses and view compact summaries.
 
@@ -76,61 +69,69 @@ During approval, select:
 
 The member credit and QuickBooks credit memo workflow remain separate from the internal resource expense report.
 
-## 6. Predicted Maintenance Costs
+## 6. Maintenance Costs
 
-Predicted maintenance costs are tied to maintenance reminders/items. These are planning entries for future maintenance such as annual inspections, oil changes, engine overhaul reserves, or system upgrades.
+Maintenance reminders and estimated maintenance costs are managed together from the resource maintenance page:
 
-Reports include predictive maintenance automatically when the selected date range extends into the future. Predictive maintenance is only counted for future dates.
+`Resource` -> select resource -> `Manage Maintenance & Costs`
 
-Maintenance reminders predict or identify when work is due, but they do not provide a dollar amount by themselves. To include future maintenance dollars in expense reports or suggested hourly rates, add a predicted maintenance cost entry for the maintenance item.
+Each maintenance item can include:
 
-For hour-based maintenance items, such as an engine overhaul due at a specific aircraft hour reading, the predicted cost entry can be saved without an expected date. Contact Ground will estimate the expected date from the maintenance item's due hours, the resource's current hours, and recent average usage. If the maintenance item is date-based, the item due date is used. If neither a due date nor a calculable hour-based prediction is available, enter an expected date manually.
+1. Reminder tracking by hours or date
+2. Estimated expense amount
+3. Expense category
+4. Fixed or variable cost type
+5. Notes
+6. Whether the item is included in cost forecasts
 
-## 7. Reports
+Hour-based and date-based reminder modes remain mutually exclusive. If a maintenance task needs both, create two maintenance items.
 
-`Reports` -> `Resource Expenses` includes:
+Estimated maintenance costs do not appear as actual expenses in the Resource Expenses report. They are planning inputs for the resource cost forecast page.
 
-1. Total expenses over time
+## 7. Resource Expenses Report
+
+`Reports` -> `Resource Expenses` is an entered-expense report. It includes manual expenses, approved-credit-request expenses, and materialized recurring/per-flight-hour saved expense rows for the selected range.
+
+The report includes:
+
+1. Total entered expenses over time
 2. Fixed vs. variable expense split
-3. Expenses by resource
-4. Expenses by category
-5. Expense Pareto chart
-6. Suggested hourly resource rates
+3. Expenses by category
+4. Expense Pareto chart
+5. Expense entry details and formulas
 
-Filters include date range, resource/all resources, category, and cost type.
+Filters include date range and resource. Predictive maintenance, automatic fuel/oil projections, available funds, and suggested hourly rates are intentionally not shown on this report.
 
-The selected date range controls both which expenses are counted and how future usage is estimated:
+## 8. Cost Per Hour Forecasting
 
-1. Historical portions of the range use actual submitted flight hours.
-2. Future portions of the range use projected hours.
-3. If the range spans past and future dates, projected hours are based on the average usage from the elapsed portion of that selected range.
-4. If the range is future-only, or has no actual usage yet, projected hours fall back to recent usage history.
-5. Recurring expenses are prorated only for the part of the recurring entry that overlaps the selected range.
-6. Predicted maintenance costs are included only when their expected date falls within the future portion of the selected range.
+Cost-per-hour planning is resource-specific:
 
-The bottom of the report includes a calculation summary that shows:
+`Resource` -> select resource -> `Forecast Cost Per Hour`
 
-1. Usage hours by resource.
-2. Each total, recurring, per-hour, usage-projection, and prediction row, the formula used, and the amount included in the report.
+The resource page also shows a compact `Cost Per Hour` card with the current billing hourly rate and recent actual entered expense per submitted flight hour.
 
-## 8. Available Funds in Hourly Rate Planning
+The forecast page is on-demand and does not save scenarios. It lets the user:
 
-The suggested hourly-rate report has an `Available Funds` input for reserves or cash already available for the selected planning period.
+1. Include or exclude existing maintenance items with estimated costs.
+2. Select existing entered expenses for planning.
+3. Add temporary forecast-only rows.
+4. Choose forecast flight hours and forecast months.
 
-How it works:
+Forecast output separates:
 
-1. For a single resource, available funds are subtracted from that resource's expenses before calculating the suggested hourly rate.
-2. For all resources, available funds are allocated proportionally by each resource's share of expenses.
-3. The report shows gross expenses, funds applied, net expenses, usage hours, and suggested hourly rate.
-4. If a resource has expenses but no usage hours, the report shows a warning instead of a rate.
+1. Fixed costs as recommended monthly dues.
+2. Variable/reserve costs as hourly recovery.
+3. Combined equivalent cost per hour for comparison.
+
+Use fixed recovery for costs the club wants to collect through monthly dues instead of hourly aircraft rates.
 
 ## 9. Best Practices
 
-1. Track recurring fixed costs monthly so the rate model reflects real ownership cost.
+1. Track recurring fixed costs monthly so historical reports reflect real ownership cost.
 2. Enter variable costs close to when they happen.
-3. Record future maintenance estimates early, then refine them when quotes arrive.
-4. Use available funds only for money intentionally available to offset the planning-period expenses.
-5. Review suggested rates before changing published hourly rates.
+3. Keep maintenance item estimated costs current as quotes and due dates change.
+4. Use the resource forecast page before changing published hourly rates or monthly dues.
+5. Keep Resource Expenses focused on entered expenses so actual reports remain auditable.
 
 ---
 
