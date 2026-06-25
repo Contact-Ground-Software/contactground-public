@@ -135,7 +135,7 @@ The resource forecast shows resource-specific costs:
 
 1. Fixed costs are shown for context but are not converted to monthly dues.
 2. Variable and reserve costs are shown as hourly recovery.
-3. The combined equivalent cost per hour is shown for comparison.
+3. Per-flight-hour expenses are added directly to the recommended hourly rate.
 
 Organization administrators can open `Forecast monthly dues` beside the Monthly Member Rate setting. This organization-level forecast combines fixed entered expenses and forecast-enabled fixed maintenance estimates across all resources, then divides the total by the forecast months and current member count. It is available only when Expense Management is enabled.
 

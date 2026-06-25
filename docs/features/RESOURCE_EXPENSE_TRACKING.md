@@ -32,7 +32,7 @@ Contact Ground creates default aviation categories the first time the feature is
 - Upgrades
 - Other
 
-Each category has a default cost type of `Fixed` or `Variable`. Manage organization categories from the Expenses page using `Manage Categories`.
+Each category has a default cost type of `Fixed` or `Variable`. New and edited expenses default to the selected category's value, but the expense form can override the cost type for an individual expense. Manage organization categories from the Expenses page using `Manage Categories`.
 
 ## 4. Expense Entry
 
@@ -120,8 +120,8 @@ The forecast page is on-demand and does not save scenarios. It lets the user:
 Forecast output separates:
 
 1. Fixed costs for resource-level context.
-2. Variable/reserve costs as hourly recovery.
-3. Combined equivalent cost per hour for comparison.
+2. Variable/reserve costs divided across forecast flight hours.
+3. Per-flight-hour expenses added directly to the hourly rate, regardless of whether their category is fixed or variable.
 
 When Expense Management is enabled, organization administrators can open the monthly dues forecast beside the Monthly Member Rate setting. It includes fixed costs across all resources, prorates recurring expenses over the forecast period, adds forecast-enabled fixed maintenance estimates, and divides the result by forecast months and current members.
 
