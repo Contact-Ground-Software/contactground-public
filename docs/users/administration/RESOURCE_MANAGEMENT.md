@@ -150,6 +150,8 @@ Organization administrators can open `Forecast monthly dues` beside the Monthly 
 
 The monthly dues forecast follows the resource cost forecast layout. It includes headline cards for total fixed costs, forecast dues, and current dues; a dated expense-versus-dues-income timeline with funding-gap shading; selectable fixed expenses and maintenance estimates; temporary planning rows; and a summary showing the per-member monthly dues calculation.
 
+The member-count field defaults to the organization’s current member count and can be changed for what-if scenarios without updating the organization.
+
 The Resource Expenses report remains an entered-expense audit report and does not include maintenance estimates or rate recommendations.
 
 ## 6. Maintenance Items
