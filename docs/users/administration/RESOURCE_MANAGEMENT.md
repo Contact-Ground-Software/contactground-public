@@ -144,6 +144,7 @@ The resource forecast shows resource-specific costs:
 5. Hour-based maintenance estimates repeat throughout the selected forecast. For example, an oil change due every 50 hours appears twice when both occurrences fall within a 100-hour forecast.
 6. The hourly-rate calculation recovers an hour-based maintenance estimate by its next due point. An overhaul due in 39.5 hours is divided by 39.5 hours, rather than by the full forecast length.
 7. A green dashed marker shows the date when the selected forecast flight hours are expected to be reached. Projected income stops increasing at that marker, while selected calendar expenses due afterward remain visible on the timeline.
+8. Red shading between the cumulative expense and projected income lines marks periods where forecast expenses are not fully covered by projected hourly-rate income.
 
 Organization administrators can open `Forecast monthly dues` beside the Monthly Member Rate setting. This organization-level forecast combines fixed entered expenses and forecast-enabled fixed maintenance estimates across all resources, then divides the total by the forecast months and current member count. It is available only when Expense Management is enabled.
 
