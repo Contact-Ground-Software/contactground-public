@@ -8,7 +8,7 @@ Aircraft maintenance intervals are typically determined either by flight hours o
 
 Upcoming maintenance is automatically shown on the calendar as **read-only, informational events**.  These events are visible to all users but cannot be edited from the calendar; they do not block members from booking the resource.
 
-When Expense Management is enabled, maintenance reminders can also store estimated maintenance costs. Those estimates are used by the resource cost forecast page and do not appear as actual expenses in the Resource Expenses report.
+When Expense Management is enabled, maintenance reminders can also store estimated maintenance costs. Those estimates are used by resource cost forecasts; fixed estimates can also contribute to the organization monthly dues forecast. They do not appear as actual expenses in the Resource Expenses report.
 
 ## 2. Reminder Days Field
 

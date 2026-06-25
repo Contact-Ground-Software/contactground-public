@@ -86,7 +86,7 @@ Each maintenance item can include:
 
 Hour-based and date-based reminder modes remain mutually exclusive. If a maintenance task needs both, create two maintenance items.
 
-Estimated maintenance costs do not appear as actual expenses in the Resource Expenses report. They are planning inputs for the resource cost forecast page.
+Estimated maintenance costs do not appear as actual expenses in the Resource Expenses report. Variable estimates are planning inputs for resource cost forecasts. Fixed estimates are also included in the organization monthly dues forecast.
 
 ## 7. Resource Expenses Report
 
@@ -115,23 +115,24 @@ The forecast page is on-demand and does not save scenarios. It lets the user:
 1. Include or exclude existing maintenance items with estimated costs.
 2. Select existing entered expenses for planning.
 3. Add temporary forecast-only rows.
-4. Choose forecast flight hours and forecast months.
+4. Choose forecast flight hours.
 
 Forecast output separates:
 
-1. Fixed costs as recommended monthly dues.
+1. Fixed costs for resource-level context.
 2. Variable/reserve costs as hourly recovery.
 3. Combined equivalent cost per hour for comparison.
 
-Use fixed recovery for costs the club wants to collect through monthly dues instead of hourly aircraft rates.
+When Expense Management is enabled, organization administrators can open the monthly dues forecast beside the Monthly Member Rate setting. It includes fixed costs across all resources, prorates recurring expenses over the forecast period, adds forecast-enabled fixed maintenance estimates, and divides the result by forecast months and current members.
 
 ## 9. Best Practices
 
 1. Track recurring fixed costs monthly so historical reports reflect real ownership cost.
 2. Enter variable costs close to when they happen.
 3. Keep maintenance item estimated costs current as quotes and due dates change.
-4. Use the resource forecast page before changing published hourly rates or monthly dues.
-5. Keep Resource Expenses focused on entered expenses so actual reports remain auditable.
+4. Use resource forecasts before changing published hourly rates.
+5. Use the organization monthly dues forecast before changing monthly member rates.
+6. Keep Resource Expenses focused on entered expenses so actual reports remain auditable.
 
 ---
 

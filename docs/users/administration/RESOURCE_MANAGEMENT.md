@@ -122,19 +122,22 @@ The current rate stays in effect until the scheduled date. Upcoming rate changes
 
 1. Set rates before month-end billing runs.
 2. Schedule future changes in advance to avoid billing surprises.
-3. Use the resource `Forecast Cost Per Hour` page before changing hourly rates or monthly dues.
-4. Review the schedule list to confirm the right rate is active.
-5. Contact accounting when rates change so they can verify upcoming invoices.
+3. Use the resource `Forecast Cost Per Hour` page before changing hourly rates.
+4. Use `Organization` -> `Forecast monthly dues` before changing monthly member dues.
+5. Review the schedule list to confirm the right rate is active.
+6. Contact accounting when rates change so they can verify upcoming invoices.
 
 ### 5.4 Cost forecasts from expenses
 
 When Expense Management is enabled, each resource has a cost forecast page. The forecast can include selected entered expenses, estimated maintenance items, and temporary planning rows.
 
-The forecast separates fixed costs from variable/reserve costs:
+The resource forecast shows resource-specific costs:
 
-1. Fixed costs are shown as recommended monthly dues.
+1. Fixed costs are shown for context but are not converted to monthly dues.
 2. Variable and reserve costs are shown as hourly recovery.
 3. The combined equivalent cost per hour is shown for comparison.
+
+Organization administrators can open `Forecast monthly dues` beside the Monthly Member Rate setting. This organization-level forecast combines fixed entered expenses and forecast-enabled fixed maintenance estimates across all resources, then divides the total by the forecast months and current member count. It is available only when Expense Management is enabled.
 
 The Resource Expenses report remains an entered-expense audit report and does not include maintenance estimates or rate recommendations.
 
