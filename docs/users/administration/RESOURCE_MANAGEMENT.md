@@ -131,11 +131,19 @@ The current rate stays in effect until the scheduled date. Upcoming rate changes
 
 When Expense Management is enabled, each resource has a cost forecast page. The forecast can include selected entered expenses, estimated maintenance items, and temporary planning rows.
 
+The forecast summary lists the entries shown on the cost timeline, groups recurring occurrences, and shows the arithmetic behind total projected expenses and forecast cost per hour. Fixed costs remain part of projected expenses but are excluded from the resource hourly-rate calculation; configured per-flight-hour expenses are added directly to the rate.
+
+The Maintenance Items table shows the stored due date for calendar-based maintenance and a projected due date for hour-based maintenance when recent usage history is available.
+
 The resource forecast shows resource-specific costs:
 
 1. Fixed costs are shown for context but are not converted to monthly dues.
 2. Variable and reserve costs are shown as hourly recovery.
 3. Per-flight-hour expenses are added directly to the recommended hourly rate.
+4. The cost timeline plots actual and predicted expense events by date, cumulative expenses, and income projected from the current hourly billing rate. The projected gap or surplus shows whether that rate is expected to cover the selected costs.
+5. Hour-based maintenance estimates repeat throughout the selected forecast. For example, an oil change due every 50 hours appears twice when both occurrences fall within a 100-hour forecast.
+6. The hourly-rate calculation recovers an hour-based maintenance estimate by its next due point. An overhaul due in 39.5 hours is divided by 39.5 hours, rather than by the full forecast length.
+7. A green dashed marker shows the date when the selected forecast flight hours are expected to be reached. Projected income stops increasing at that marker, while selected calendar expenses due afterward remain visible on the timeline.
 
 Organization administrators can open `Forecast monthly dues` beside the Monthly Member Rate setting. This organization-level forecast combines fixed entered expenses and forecast-enabled fixed maintenance estimates across all resources, then divides the total by the forecast months and current member count. It is available only when Expense Management is enabled.
 

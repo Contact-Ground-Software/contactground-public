@@ -122,6 +122,7 @@ Forecast output separates:
 1. Fixed costs for resource-level context.
 2. Variable/reserve costs divided across forecast flight hours.
 3. Per-flight-hour expenses added directly to the hourly rate, regardless of whether their category is fixed or variable.
+4. A dated timeline with separately colored actual and predicted expense events, cumulative expenses, projected hourly-rate income, and the resulting gap or surplus.
 
 When Expense Management is enabled, organization administrators can open the monthly dues forecast beside the Monthly Member Rate setting. It includes fixed costs across all resources, prorates recurring expenses over the forecast period, adds forecast-enabled fixed maintenance estimates, and divides the result by forecast months and current members.
 
